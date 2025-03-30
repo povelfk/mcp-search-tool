@@ -1,0 +1,5 @@
+mcp-plugin-tools
+openai
+python-dotenv
+pydantic
+tavily-python
