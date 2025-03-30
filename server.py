@@ -95,8 +95,8 @@ def test_search():
 # Main entry point for running the server
 if __name__ == "__main__":
     # For testing, uncomment the line below:
-    test_search()
+    # test_search()
     
     # Run the MCP server
     print("Starting MCP server...")
-    # mcp.run(transport="stdio")
+    mcp.run(transport="stdio")
