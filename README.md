@@ -50,10 +50,10 @@ Creates an MCP (Model Context Protocol) Web Search tool (Tavily) that generates 
        }
    }
    ```
-   3. To access the tool in VS Code:
-        - Open the Chat view in VS Code
-        - The web search tool will appear as an available extension in the chat interface
-        - You can now use the web search capabilities directly within your coding environment
+3. To access the tool in VS Code:
+   - Open the Chat view in VS Code
+   - The web search tool will appear as an available extension in the chat interface
+   - You can now use the web search capabilities directly within your coding environment
      
 
 ### Running the Tool
