@@ -1,4 +1,4 @@
-mcp-plugin-tools
+mcp
 openai
 python-dotenv
 pydantic
