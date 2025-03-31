@@ -1,12 +1,15 @@
 # Web Search Agent MCP Tool
 
-An MCP (Microsoft Copilot Plugin) tool that enhances search queries based on conversation context and returns web search results.
+Creates an MCP (Model Context Protocol) Web Search tool (Tavily) that generates search queries based on conversation context and returns web search results. This tool integrates with Azure OpenAI for query enhancement and works directly within VS Code.
 
 ## Setup Instructions
 
 ### Prerequisites
 
 1. Python 3.8 or higher
+2. Azure OpenAI API access
+3. Tavily API key
+4. VS Code Insiders
 
 ### Installation
 
@@ -47,6 +50,11 @@ An MCP (Microsoft Copilot Plugin) tool that enhances search queries based on con
        }
    }
    ```
+   3. To access the tool in VS Code:
+        - Open the Chat view in VS Code
+        - The web search tool will appear as an available extension in the chat interface
+        - You can now use the web search capabilities directly within your coding environment
+     
 
 ### Running the Tool
 
@@ -69,3 +77,5 @@ python server.py
 ## Troubleshooting
 
 - **API Key errors**: Ensure all required environment variables are set in your `.env` file.
+- **VS Code integration issues**: Verify that the paths in your settings.json are correct and that the MCP discovery setting is enabled.
+
